@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: comic-sns;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 75px;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.name {
+  padding: 0.5rem;
+}
+
+.name input {
+  margin-top: 0.8rem;
+  width: 12rem;
+  height: 1.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid darkslategrey;
+  text-indent: 0.3rem;
+}
+
+.surname {
+  padding: 0.5rem;
+}
+
+.surname input {
+  margin-top: 0.8rem;
+  width: 12rem;
+  height: 1.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid darkslategrey;
+  text-indent: 0.3rem;
+}
+
+.email {
+  padding: 0.5rem;
+}
+
+.email input {
+  margin-top: 0.8rem;
+  width: 12rem;
+  height: 1.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid darkslategrey;
+  text-indent: 0.3rem;
+}
+
+.option-role select {
+  height: 1.5rem;
+  margin: 1rem 1rem 0.5rem 0.5rem;
+}
+
+.checkbox-prefer {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-prefer input {
+  margin: 1rem;
+}
+
+.option-feature select {
+  height: 1.5rem;
+  margin: 1rem 1rem 0.5rem 0.5rem;
+}
+
+.improve {
+  display: flex;
+  flex-direction: column;
+}
+
+.improve input {
+  margin: 1rem;
+}
+
+textarea {
+  height: 3rem;
+  width: 15rem;
+  margin: 1rem;
+  resize: none;
+  text-indent: 0.3rem;
+}
+
+.comment button {
+  width: 5rem;
+  height: 1.3rem;
+  border: none;
+  background-color: #ddd;
+}
+
+.comment button:hover {
+  cursor: pointer;
+}

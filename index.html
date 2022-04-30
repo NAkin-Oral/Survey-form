@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <header>
+          <h1>Clarusway Survey Form</h1>
+          <p>Thank you for taking the time to help us improve the platform</p>
+        </header>
+      </div>
+      <div class="section">
+        <section>
+          <form action="result.html" method="GET" target="_blank">
+            <div class="name">
+              <label for="name">Name</label>
+              <br />
+              <input
+                type="text"
+                id="name"
+                placeholder=" Enter your name..."
+                name="Name"
+              />
+            </div>
+            <div class="surname">
+              <label for="surname">Surname</label>
+              <br />
+              <input
+                type="text"
+                id="surname"
+                placeholder=" Enter your surname..."
+                name="Surname"
+              />
+            </div>
+            <div class="email">
+              <label for="email">Email</label>
+              <br />
+              <input
+                type="email"
+                id="email"
+                placeholder=" user@clarusway.com"
+                name="Email"
+              />
+            </div>
+            <div class="option-role">
+              <p>Which option best describes your current role?</p>
+              <select name="Role" id="select">
+                <option disabled selected value="Select current role">
+                  Select current role
+                </option>
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Part Time Job">Part Time Job</option>
+                <option value="Full Time Learner">Full Time Learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+              </select>
+            </div>
+            <div class="checkbox-prefer">
+              <p>Would you recommend Clarusway to a friend?</p>
+              <label
+                ><input
+                  name="User-recommend"
+                  value="definitely"
+                  type="radio"
+                  checked
+                />Definitely, Yes</label
+              >
+              <label
+                ><input
+                  name="User-recommend"
+                  value="maybe"
+                  type="radio"
+                />Maybe</label
+              >
+              <label
+                ><input
+                  name="User-recommend"
+                  value="not-sure"
+                  type="radio"
+                />Not sure</label
+              >
+              <label
+                ><input
+                  name="User-recommend"
+                  value="no"
+                  type="radio"
+                />Definitely, no</label
+              >
+            </div>
+            <div class="option-feature">
+              <p>What is your favorite feature of Clarusway</p>
+              <select name="Favorite-Feature" id="select">
+                <option disabled selected value="Select current role">
+                  Select your favorite feature
+                </option>
+                <option value="Courses">Courses</option>
+                <option value="Projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="Mentors">Mentors</option>
+              </select>
+            </div>
+            <div class="improve">
+              <p>What would you like to see improved? (Check all that apply)</p>
+              <label
+                ><input
+                  name="Need-improve"
+                  value="Front-end-Projects"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Front-end Projects</label
+              >
+              <label
+                ><input
+                  name="Need-improve"
+                  value="Back-end-Projects"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Back-end Projects</label
+              >
+              <label
+                ><input
+                  name="Need-improve"
+                  value="Data-Science"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Data Science</label
+              >
+              <label
+                ><input
+                  name="Need-improve"
+                  value="Additional-Courses"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Additional Courses</label
+              >
+            </div>
+            <div class="comment">
+              <p>Any comments or suggestions?</p>
+              <textarea
+                id="comments"
+                name="Comment"
+                placeholder="Enter your comment here...Thanxs for your commets...."
+              ></textarea>
+              <button type="submit" id="submit">Submit</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
